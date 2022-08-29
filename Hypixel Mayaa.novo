@@ -1,0 +1,1006 @@
+config-version=8
+modules {
+    "aim_assist" {
+        aim-delay=0.0
+        click-aim=false
+        display-name="Aim Assist"
+        enabled=false
+        height=3.5
+        hidden=false
+        horizontal-left=1.0
+        horizontal-right=1.0
+        only-axe-sword=false
+        ray-trace=false
+        reach=3.0
+        vertical-down=1.0
+        vertical-up=1.0
+    }
+    animations {
+        block-height=10
+        display-name=""
+        downscale-factor=0.3
+        enabled=true
+        hidden=true
+        hit=Smooth
+        hit-height=26
+        rotating=false
+        slowdown=6
+        type=Exhibition
+    }
+    anti-alts {
+        display-name=""
+        enabled=false
+        hidden=false
+        report-bot=false
+    }
+    "anti_bot" {
+        display-name="Anti Bot"
+        enabled=true
+        hidden=false
+    }
+    "anti_void" {
+        display-name=""
+        enabled=false
+        fall-dist=20
+        hidden=false
+        mode=Hypixel
+        void-check=true
+    }
+    antiobbytrap {
+        display-name=""
+        enabled=false
+        hidden=false
+    }
+    arrows {
+        alpha=80
+        alpha-type=Distance
+        color=-16776961
+        color-type=Client
+        display-name=""
+        enabled=true
+        filters=[
+            Teams
+        ]
+        hidden=true
+        "only_invisible"=true
+        radius=55
+        rainbow-type=Static
+        targets=[
+            Players
+        ]
+        targets-only=false
+    }
+    auto-head {
+        check-regen=false
+        display-name="Auto Head"
+        enabled=false
+        force-absorption=false
+        health=14.0
+        hidden=false
+    }
+    auto-hypixel {
+        auto-panic=[]
+        auto-pit-list=[]
+        auto-play=true
+        delay=1
+        display-name="Auto Hypixel"
+        enabled=true
+        hidden=true
+        min-bounty=500
+        reconnect=false
+    }
+    auto-register {
+        display-name=""
+        enabled=false
+        hidden=false
+        password=niggalord123
+    }
+    "auto_armor" {
+        "auto_disable"=[]
+        display-name=""
+        enabled=true
+        equip-delay=4
+        hidden=true
+        no-move=false
+        open-inventory=false
+    }
+    "auto_clicker" {
+        display-name="Auto Clicker"
+        enabled=false
+        hidden=false
+        maximum-cps=10
+        minimum-cps=8
+        only-swords-tools=true
+    }
+    "auto_pot" {
+        delay=900
+        display-name="Auto Potion"
+        enabled=true
+        health=14.0
+        hidden=true
+        over-pot=true
+        potions=[
+            Regen,
+            Speed,
+            Fire,
+            Heal
+        ]
+    }
+    "auto_tool" {
+        auto-weapon=true
+        display-name=""
+        enabled=true
+        hidden=true
+        switch-back=true
+    }
+    bed-breaker {
+        display-name=""
+        draw-radius=true
+        enabled=false
+        hidden=false
+        mode=Simple
+        radious=5
+    }
+    blink {
+        display-name=""
+        enabled=false
+        hidden=false
+        lagback-check=false
+    }
+    blocks-overlay {
+        color=-3618616
+        color-mode=Client
+        display-name=""
+        enabled=true
+        hidden=true
+        mode=Outline
+        vector=false
+    }
+    breadcrumbs {
+        color=-3618616
+        color-mode=Client
+        display-name=""
+        enabled=false
+        hidden=true
+    }
+    brightness {
+        display-name=""
+        enabled=false
+        hidden=true
+        mode=Gamma
+    }
+    camera {
+        amount=1
+        display-name=""
+        enabled=true
+        hidden=true
+        mc-lock=true
+        mouse-button=ALB
+        no-hurt-cam=true
+        smooth-zoom=true
+        view-clip=true
+    }
+    chams {
+        chams-hand=-7697665
+        chams-hidden=83871882
+        chams-material=false
+        chams-onlyTargets=false
+        chams-visible=81038079
+        display-name=""
+        enabled=false
+        hand=false
+        hidden=false
+        pulse=false
+        pulse-speed=10
+        rainbow=false
+        shader=Colored
+        shader-color=-7697665
+        targets=[
+            Players,
+            Mobs
+        ]
+        visible-alpha=140
+    }
+    chat-futures {
+        auto-gg=true
+        auto-gg-message=GG
+        delay=3000
+        display-name=""
+        enabled=true
+        filter-bypass=false
+        hidden=true
+        mode=Cyrillic
+        spammer=false
+        text="Buy novoline"
+    }
+    "chest_esp" {
+        bordered=true
+        color=1905864119
+        color-box=Client
+        color-ender=889127109
+        color-hidden=-5921883
+        color-visible=1056925029
+        display-name=""
+        enabled=true
+        hidden=true
+        mode=Outline
+    }
+    "chest_stealer" {
+        aura-range=4.0
+        "auto_disable"=[]
+        close-delay=50.0
+        cs-aura=false
+        delay=70.0
+        display-name=""
+        enabled=true
+        extra-packet=false
+        hidden=true
+        ignore=true
+        no-move=false
+        rotate-camera=true
+        silent=false
+        start-delay=50.0
+    }
+    click-teleport {
+        damage=true
+        delay=100.0
+        display-name=""
+        enabled=false
+        hidden=false
+        mode=BlocksMC
+        speed=Instant
+    }
+    "click_gui" {
+        blur=true
+        "close_previous"=true
+        color-crystal=-6000739
+        crystal-gui-current-tab=Visuals
+        crystal-gui-height=379.0
+        crystal-gui-pos-x=250
+        crystal-gui-pos-y=190
+        crystal-gui-width=560.0
+        display-name=""
+        dpi-scale-crystal=1.0
+        "dpi_scale"=1.0
+        dropdown-design=Basic
+        dropdown-transparecny=40
+        dsv=true
+        enabled=false
+        hidden=false
+        mode=Dropdown
+        open-animation=Linear
+        "razer_fanboy"=true
+        shadow-effect-crystal=true
+    }
+    criticals {
+        display-name=Criticals
+        enabled=true
+        hidden=false
+        mode=Hypixel
+    }
+    custom-hit-glint {
+        color=-3618616
+        color-mode=Client
+        display-name=""
+        enabled=false
+        hidden=true
+        legacy-render=true
+    }
+    disabler {
+        display-name=""
+        enabled=true
+        hidden=false
+        mode=Watchdog
+        ping-delay=400
+    }
+    dmg-particles {
+        display-name=""
+        enabled=true
+        hidden=true
+    }
+    fast-sneak {
+        display-name="Fast Sneak"
+        enabled=false
+        hidden=false
+    }
+    "fast_place" {
+        blocks-only=true
+        display-name=""
+        enabled=true
+        hidden=true
+        place-delay=1
+    }
+    flight {
+        display-name=Flight
+        enabled=false
+        hidden=false
+        mob-exploit=true
+        mode=Motion
+        motion-speed=4.1
+    }
+    freecam {
+        display-name=""
+        enabled=false
+        freecam-speed=4
+        hidden=false
+    }
+    game-speed {
+        display-name=""
+        enabled=false
+        hidden=false
+        lag-check=false
+        timer-boost=2.5
+    }
+    glint-colorize {
+        display-name=""
+        enabled=false
+        glint-color=-7697665
+        hidden=true
+        rainbow=false
+    }
+    glow {
+        alpha=220
+        color=-5751202
+        color-outline-mode=Client
+        color-shader-mode=Static
+        display-name=""
+        enabled=true
+        hidden=true
+        mode=Outline
+        radius=24
+        targets=[
+            Players,
+            Mobs
+        ]
+    }
+    "gui_move" {
+        check-moving=true
+        display-name=""
+        enabled=true
+        hidden=true
+        only-client-gui=false
+        sneak=false
+    }
+    h-clip {
+        display-name=HClip
+        enabled=false
+        hidden=false
+    }
+    "hit_box" {
+        display-name="Hit Box"
+        enabled=false
+        hidden=false
+        size=0.30000001192092896
+    }
+    hud {
+        armor-align=Horizontal
+        armor-background=true
+        armor-background-alpha=100
+        armor-background-roundness=0.0
+        armor-background-smoothness=2
+        armor-blur=false
+        armor-x-position=480
+        armor-y-position=505
+        chat-alpha=110
+        chat-font=Client
+        chat-height=0
+        chat-roundness=5.0
+        chat-smoothness=4
+        client-font=Poppin
+        color=-692112
+        color-effect=Fade
+        display-name=""
+        enabled=true
+        fade-begin-color=-4091403
+        fade-end-color=-7389963
+        font=Vanilla
+        font-effect=Glitch
+        font-outline=false
+        font-size=17
+        hidden=true
+        hotbar-alpha=100
+        hotbar-blur=false
+        hotbar-smoothness=2
+        hotbar-style=New
+        hud-hotbar=false
+        hud-information=true
+        hud-keyStrokes=false
+        hud-keybinds=false
+        hud-module-list=true
+        hud-name=true
+        information-elements=[
+            FPS
+        ]
+        information-padding=0.0
+        inventory-animation=Scale
+        key-strokes-alpha=100
+        key-strokes-pos-x=240
+        key-strokes-pos-y=30
+        key-strokes-radius=0.0
+        key-strokes-smoothness=2
+        keybinds-alpha=100
+        keybinds-bar-color=White
+        keybinds-blur=false
+        keybinds-hide-on-debug=false
+        keybinds-pos-x=227
+        keybinds-pos-y=157
+        keybinds-smoothness=2
+        keystrokes-blur=false
+        keystrokes-hide-on-debug=false
+        module-list-aligment=Left
+        module-list-background=Bar
+        module-list-background-alpha=50
+        module-list-background-color=Black
+        module-list-bar-aligment=Vertical
+        module-list-blur=false
+        module-list-effects=[
+            Blur
+        ]
+        module-list-glitch=false
+        module-list-name-case=Basic
+        module-list-name-height=0.9
+        module-list-padding=0.5
+        module-list-shadow-radius=9
+        module-list-sorting=Up
+        module-list-suffixes=Basic
+        module-list-x-position=5
+        module-list-y-position=13
+        modulelist-hide-on-debug=false
+        name-background-alpha=100
+        name-basic-addons=[
+            Time
+        ]
+        name-client-name=Novoline
+        name-custom-mark=mayaa
+        name-font-size=18
+        name-hide-on-debug=false
+        name-position-x=5
+        name-position-y=6
+        name-style=Old
+        name-time-mode="24H"
+        name-watermark-addons=[
+            Time,
+            Version,
+            Username,
+            "Server IP"
+        ]
+        notification-accent-color=Synced
+        notification-alpha=150
+        notification-bg-color=Grey
+        notification-font=Default
+        notification-shader=[
+            Blur,
+            Shadow
+        ]
+        notification-show-delay=true
+        notification-style=Basic
+        outline-width=1.5
+        potion-alpha=100
+        potion-background=true
+        potion-icon=true
+        potion-length-sorting=true
+        potion-roundness=0.0
+        potion-smoothness=2
+        potion-style=Basic
+        potions-blur=false
+        potions-x-position=10
+        potions-y-position=270
+        ram-x-position=200
+        ram-y-position=270
+        shadow-offset=1.100000023841858
+        show-armor-settings=true
+        show-chat-settings=true
+        show-hotbar-settings=true
+        show-information-settings=true
+        show-inventory-settings=true
+        show-keybinds-settings=true
+        show-keystrokes-settings=true
+        show-module-list-settings=true
+        show-name-settings=true
+        show-notification-settings=true
+        show-potion-settings=true
+        show-tps-ram-settings=true
+        tpr-ram-smoothness=2
+        tps-ram-alpha=120
+        tps-ram-blur=false
+        tps-x-position=250
+        tps-y-position=270
+        watermark-background-roundness=0.0
+        watermark-background-smoothness=1
+        watermark-bar=false
+        watermark-bar-align=Top
+        watermark-blur=false
+        watermark-glitch=true
+    }
+    "inv_manager" {
+        arrows=192
+        autodisable=[]
+        axe-slot=8
+        blocks=512
+        bow-slot=2
+        delay=2
+        display-name=Inventory
+        enabled=true
+        gapple-slot=4
+        head-slot=3
+        hidden=false
+        inventory-cleaner=true
+        keep-items=[
+            Sword,
+            Bow,
+            Pickaxe,
+            Axe,
+            Shovel,
+            "Golden Apple",
+            Head
+        ]
+        no-move=false
+        open-inventory=false
+        pickaxe-slot=7
+        shovel-slot=9
+        sort-mode=Default
+        weapon-slot=1
+    }
+    "item_esp" {
+        display-name=""
+        enabled=true
+        hidden=true
+        names=true
+        needed-only=true
+    }
+    "item_physic" {
+        display-name=Visuals
+        enabled=true
+        hidden=false
+    }
+    jump-circle {
+        color=-3618616
+        color-mode=Client
+        display-name=""
+        enabled=true
+        hidden=true
+        radius=0.800000011920929
+    }
+    "kill_aura" {
+        aura-sort=Health
+        auto-block=true
+        auto-block-mode=Hypixel
+        autodisable=[]
+        block-range=4.8
+        color=-1
+        display-name="Kill Aura"
+        enabled=false
+        esp=true
+        esp-color=-3618616
+        esp-color-mode=Client
+        filters=[
+            Teams
+        ]
+        fov-check=180
+        hidden=false
+        inf-range=50.0
+        inf-wall-range=50.0
+        infinite=false
+        keep-sprint=false
+        lag-check=false
+        max-aps=16.0
+        max-targets=1
+        min-aps=12.0
+        mode=Switch
+        packet-limit=10
+        particles=[]
+        particles-amount=2
+        particles-mode=Hit
+        range=4.4
+        raytrace=true
+        rotations=false
+        rotations-smoothness=60
+        sensitivity-check=true
+        switch-delay=50
+        targets=[
+            Players
+        ]
+        ticks-existed=50
+        visualize-range=false
+        wall-range=4.0
+    }
+    killsults {
+        display-name=""
+        enabled=false
+        hidden=false
+        sult-order=Queue
+    }
+    lightning-trecker {
+        auto-waypoint=false
+        display-name=""
+        enabled=false
+        hidden=false
+    }
+    long-jump {
+        blocksmc-speed=4.0
+        boost-jump-height=0.5
+        boost-speed=3.0
+        damage-mode=Packet
+        display-name="Long Jump"
+        enabled=false
+        hidden=false
+        hypixel-mode=Boost
+        mode=Hypixel
+        timer-boost=1.2000000476837158
+        timer-boost-damage=2
+        use-bow=true
+    }
+    middle-click {
+        display-name=""
+        down-place=true
+        enabled=true
+        friend=false
+        hidden=true
+        pearl=true
+        tag-mode=Friend
+    }
+    mobends {
+        display-name=""
+        enabled=false
+        hidden=false
+    }
+    nametags {
+        additions=[
+            Background,
+            Health
+        ]
+        background-alpha=95
+        content=[]
+        display-name=""
+        enabled=true
+        health-type=Bar
+        hidden=true
+        only-targets=false
+        render-distance=256
+        tag-font=Vanilla
+    }
+    no-rotate {
+        display-name=""
+        enabled=true
+        hidden=true
+    }
+    no-title {
+        display-name=""
+        enabled=true
+        hidden=true
+        no-render=false
+        style=Custom
+    }
+    "no_effects" {
+        display-name=""
+        effects=[
+            "Night Vision",
+            Blindness,
+            Nausea
+        ]
+        enabled=true
+        hidden=true
+    }
+    "no_fall" {
+        blink=false
+        display-name=""
+        enabled=false
+        hidden=false
+        mode=Hypixel
+        packets=4
+    }
+    "no_slow" {
+        display-name="No Slow"
+        enabled=true
+        hidden=false
+        items=[
+            Sword,
+            Consumables
+        ]
+        mode=Hypixel
+    }
+    optimizations {
+        chat-size=100
+        display-name=""
+        enabled=true
+        fast-block-lightning=true
+        fast-entity-lightning=true
+        hidden=false
+        no-render-item=false
+        remove-armor-stands=true
+        remove-bots=true
+        remove-entity-frames=true
+        static-particle-color=true
+    }
+    phase {
+        display-name=""
+        enabled=false
+        hidden=false
+        hieght=10
+        mode=Normal
+    }
+    "player_esp" {
+        bg-transparency=255
+        display-name=ESP
+        enabled=true
+        hat-alpha=150
+        hat-size=0.6
+        hidden=true
+        pESP-box-color-state=Dynamic
+        pESP-boxColor=-7697665
+        "pESP-box_color_mode"=Client
+        "pESP-box_mode"=Bordered
+        "pESP-box_style"=Full
+        pESP-filter=[]
+        pESP-hColor-1=-14830
+        pESP-hColor-2=-6739215
+        pESP-health-color-mode="HP Based"
+        pESP-health-mode=HP
+        pESP-hurtTime=true
+        pESP-name-color-type=Team
+        pESP-nameColor=-6291618
+        pESP-onlyTargets=false
+    }
+    "players_finder" {
+        "additional_y"=10
+        display-name=""
+        enabled=false
+        hidden=false
+    }
+    projectiles {
+        color=-3618616
+        color-mode=Client
+        display-name=""
+        enabled=true
+        hidden=true
+    }
+    radar {
+        background-roundness=48.0
+        background-smoothness=7
+        blur=false
+        display-name=""
+        enabled=false
+        hidden=false
+        hide-on-debug=false
+        radar-alpha=165
+        radar-background=Circle
+        radar-scale=4.0
+        radar-size=70.0
+        radar-x-position=101
+        radar-y-position=5
+    }
+    reach {
+        display-name=Reach
+        enabled=false
+        hidden=false
+        range=5
+    }
+    reset-vl {
+        display-name=""
+        enabled=false
+        hidden=false
+        jumps=10
+        timer-speed=1.0
+    }
+    respawn {
+        display-name="mayaa#8117"
+        enabled=true
+        hidden=true
+    }
+    scaffold {
+        block-indicator-render=true
+        display-name=Scaffold
+        down-ward=false
+        enabled=false
+        hidden=false
+        no-sprint=false
+        no-sprint-tower-move=false
+        place-event=Default
+        potion-amp=1.6
+        rotation-mode=Backward
+        spoof-item=true
+        swap-delay=150
+        swap-slot=5
+        swapper=true
+        swing-item=false
+        timer-moving=1
+        timer-support=[
+            TowerMove,
+            Tower
+        ]
+        timer-tower=0.75
+        timer-tower-move=1
+        tower-mode=Vanilla
+        tower-move-mode=Basic
+    }
+    scoreboard {
+        background-alpha=150
+        background-roundness=10.0
+        background-smoothness=3
+        bar=false
+        blur=true
+        debug-hide=false
+        display-name=""
+        enabled=true
+        font=Vanilla
+        hidden=true
+        scoreboard-x-position=960
+        scoreboard-y-position=195
+    }
+    session {
+        background-alpha=100
+        background-roundness=16.0
+        background-smoothness=16
+        bar-color-mode=Colored
+        blur=false
+        display-name=""
+        elements=[]
+        enabled=true
+        hidden=true
+        hide-on-debug=false
+        session-x-position=402
+        session-y-position=20
+    }
+    sims-esp {
+        color=-16711936
+        color-mode=Team
+        display-name=""
+        enabled=false
+        hidden=false
+    }
+    speed {
+        display-name=Speed
+        dmg-boost=true
+        down-motion=false
+        enabled=false
+        friction=160
+        hidden=false
+        jump-mode=Reduced
+        lag-back=true
+        mode=NCP
+        smooth-strafe=true
+        speed=1.5
+        timer-boost-value=1.0499999523162842
+    }
+    "speed_mine" {
+        display-name=""
+        enabled=true
+        hidden=true
+        no-slow-break=false
+    }
+    sprint {
+        display-name=Sprint
+        enabled=true
+        hidden=true
+        omni=false
+    }
+    staff-analyzer {
+        delay=65
+        display-name=Analyzer
+        enabled=true
+        hidden=false
+    }
+    step {
+        display-name=Step
+        enabled=true
+        height=1.5
+        hidden=true
+        timer-speed=0.699999988079071
+    }
+    tab-gui {
+        alpha=120
+        display-name=""
+        effects=[
+            Blur
+        ]
+        enabled=false
+        height=2
+        hidden=false
+        hide-on-debug=false
+        shadow-alpha=80
+        shadow-radius=5
+    }
+    target-hud {
+        DPI-scale=0.85
+        background-alpha=130
+        background-roundness=12.0
+        background-smoothness=16
+        blur=true
+        circles-drop-range=40.0
+        circles-drop-size=40
+        display-name=""
+        drop=true
+        drop-effect=Circles
+        enabled=true
+        hidden=true
+        max-targets=9
+        mode=Single
+        padding=5
+        style=Styles
+        sync-color=1677721600
+        x-position=581
+        y-position=325
+    }
+    target-strafe {
+        attack-radius=2.0
+        autothirdperson=false
+        avoid-edges=true
+        color=-15985931
+        display-name="Target Strafe"
+        dynamic-range=false
+        enabled=false
+        height=10
+        hidden=true
+        only-target=false
+        points=true
+        range=1.6
+        safe-radius=2.0
+        slow-strafe=true
+        space=true
+        switch-hurt-tick=8
+    }
+    tracers {
+        display-name=""
+        enabled=true
+        hidden=true
+        only-tar=true
+    }
+    train {
+        color=-3618616
+        color-mode=Client
+        display-name=""
+        enabled=false
+        hidden=false
+    }
+    velocity {
+        chance=100
+        display-name=Velocity
+        enabled=true
+        hidden=false
+        horizontal=0
+        vertical=0
+    }
+    water-walk {
+        display-name="Water Walk"
+        enabled=false
+        hidden=false
+        mode=Solid
+    }
+    waypoints {
+        display-name=""
+        enabled=false
+        hidden=false
+    }
+    wings {
+        color=-3618616
+        color-mode=Client
+        display-name=""
+        enabled=false
+        hidden=false
+        scale=50
+    }
+    "world_time" {
+        cycle-speed=5
+        display-name=""
+        enabled=true
+        hidden=true
+        time=18.0
+        time-mode=Static
+        weather-control=false
+        weather-mode=Thunder
+    }
+    xray {
+        chunk-update=true
+        delay=10.0
+        display-name=""
+        distance=42
+        enabled=false
+        esp=true
+        esp-ores=[
+            Diamond
+        ]
+        hidden=false
+        opacity=160
+        tracers=true
+    }
+}
